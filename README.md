@@ -30,8 +30,8 @@ litellm-proxy-lambda-cdk/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/nog/litellm-proxy-lambda-cdk.git
-   cd litellm-proxy-lambda-cdk
+   git clone https://github.com/nog/litellm-bedrock-lambda-cdk.git
+   cd litellm-bedrock-lambda-cdk
    ```
 
 2. Install dependencies:

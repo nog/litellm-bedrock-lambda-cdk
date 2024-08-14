@@ -1,0 +1,8 @@
+#!/bin/bash
+
+PATH=$PATH:$LAMBDA_TASK_ROOT/bin \
+    PYTHONPATH=$PYTHONPATH:/opt/python:$LAMBDA_RUNTIME_DIR \
+    AWS_REGION_NAME=$AWS_REGION \
+    SERVER_ROOT_PATH=/prod \
+    LITELLM_MASTER_KEY=$LITELLM_MASTER_KEY \
+    exec litellm --config /var/task/config.yaml --port 8080
